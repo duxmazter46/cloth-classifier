@@ -102,19 +102,19 @@ function App() {
           </div>
           <ul className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-1 text-[18px] font-medium">
             <li className="flex flex-col text-center mr-[35px]">
-              <img src={GliomaImage} alt="Glioma" className="w-[270px] h-[140px] rounded-[20px] my-2 transition-transform duration-300 hover:scale-105" alt="Glioma" />
+              <img src={GliomaImage}  className="w-[270px] h-[140px] rounded-[20px] my-2 transition-transform duration-300 hover:scale-105" alt="Glioma" />
               Glioma
             </li>
             <li className="flex flex-col text-center mr-[35px]">
-              <img src={Meningioma} alt="Meningioma" className="w-[270px] h-[140px] rounded-[20px] my-2 transition-transform duration-300 hover:scale-105" alt="Healthy" />
+              <img src={Meningioma}  className="w-[270px] h-[140px] rounded-[20px] my-2 transition-transform duration-300 hover:scale-105" alt="Healthy" />
               Healthy
             </li>
             <li className="flex flex-col text-center mr-[35px]">
-              <img src={Healthy} alt="Healthy" className="w-[270px] h-[140px] rounded-[20px] my-2 transition-transform duration-300 hover:scale-105" alt="Meningioma" />
+              <img src={Healthy}  className="w-[270px] h-[140px] rounded-[20px] my-2 transition-transform duration-300 hover:scale-105" alt="Meningioma" />
               Meningioma
             </li>
             <li className="flex flex-col text-center mr-[35px]">
-              <img src={Pituitary} alt="Pituitary" className="w-[270px] h-[140px] rounded-[20px] my-2 transition-transform duration-300 hover:scale-105" alt="Pituitary" />
+              <img src={Pituitary}  className="w-[270px] h-[140px] rounded-[20px] my-2 transition-transform duration-300 hover:scale-105" alt="Pituitary" />
               Pituitary
             </li>
           </ul>
