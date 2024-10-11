@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import * as tf from "@tensorflow/tfjs";
-
+import GliomaImage from './assets/Glioma.png';
+import Healthy from './assets/Healthy.png';
+import Meningioma from './assets/Meningioma.png';
+import Pituitary from './assets/Pituitary.png';
 // Define the shape of the history items
 interface HistoryItem {
   imageURL: string;
@@ -99,19 +102,19 @@ function App() {
           </div>
           <ul className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-1 text-[18px] font-medium">
             <li className="flex flex-col text-center mr-[35px]">
-              <img src="/src/assets/Glioma.png" className="w-[270px] h-[140px] rounded-[20px] my-2 transition-transform duration-300 hover:scale-105" alt="Glioma" />
+              <img src={GliomaImage} alt="Glioma" className="w-[270px] h-[140px] rounded-[20px] my-2 transition-transform duration-300 hover:scale-105" alt="Glioma" />
               Glioma
             </li>
             <li className="flex flex-col text-center mr-[35px]">
-              <img src="/src/assets/Meningioma.png" className="w-[270px] h-[140px] rounded-[20px] my-2 transition-transform duration-300 hover:scale-105" alt="Healthy" />
+              <img src={Meningioma} alt="Meningioma" className="w-[270px] h-[140px] rounded-[20px] my-2 transition-transform duration-300 hover:scale-105" alt="Healthy" />
               Healthy
             </li>
             <li className="flex flex-col text-center mr-[35px]">
-              <img src="/src/assets/Healthy.png" className="w-[270px] h-[140px] rounded-[20px] my-2 transition-transform duration-300 hover:scale-105" alt="Meningioma" />
+              <img src={Healthy} alt="Healthy" className="w-[270px] h-[140px] rounded-[20px] my-2 transition-transform duration-300 hover:scale-105" alt="Meningioma" />
               Meningioma
             </li>
             <li className="flex flex-col text-center mr-[35px]">
-              <img src="/src/assets/Pituitary.png" className="w-[270px] h-[140px] rounded-[20px] my-2 transition-transform duration-300 hover:scale-105" alt="Pituitary" />
+              <img src={Pituitary} alt="Pituitary" className="w-[270px] h-[140px] rounded-[20px] my-2 transition-transform duration-300 hover:scale-105" alt="Pituitary" />
               Pituitary
             </li>
           </ul>
